@@ -1,7 +1,7 @@
-var KerasModelViewer = require('keras-model-viewer');
+var KerasModelViewer = require('./viewer.js');
 var dat = require('dat.gui/build/dat.gui.js');
 // If we use another SVG instance, textflow does not work!
-var SVG = require('keras-model-viewer/node_modules/svg.js');
+var SVG = require('svg.js');
 require('./lib/svg.textflow.js');
 require('./index.css');
 

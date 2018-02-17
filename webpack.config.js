@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './index.js',
+  entry: './editor.js',
   output: {
     filename: 'keras-model-editor.js',
     path: path.resolve(__dirname, 'dist')
